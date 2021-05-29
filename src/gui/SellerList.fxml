@@ -12,9 +12,9 @@
 <VBox prefHeight="388.0" prefWidth="440.0"
 	xmlns="http://javafx.com/javafx/10.0.1"
 	xmlns:fx="http://javafx.com/fxml/1"
-	fx:controller="gui.DepartmentListController">
+	fx:controller="gui.SellerListController">
 	<children>
-		<Label text="Department Registration">
+		<Label text="Seller Registration">
 			<font>
 				<Font name="System Bold" size="14.0" />
 			</font>
@@ -28,7 +28,7 @@
 					onAction="#onBtNewAction" text="New" />
 			</items>
 		</ToolBar>
-		<TableView fx:id="tableViewDepartment" prefHeight="200.0"
+		<TableView fx:id="tableViewSeller" prefHeight="200.0"
 			prefWidth="200.0">
 			<columns>
 				<TableColumn fx:id="tableColumnId" prefWidth="75.0"
